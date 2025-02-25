@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 
 ### 📁 Dataset Preparation
-Download the MVTec and VAD datasets from:
+Download the MVTec, VAD and VisA datasets from:
 - [MVTec AD Dataset](https://www.mvtec.com/company/research/datasets/mvtec-ad/)
 - [Valeo Anomaly Dataset (VAD)](https://drive.google.com/file/d/1LbHHJHCdkvhzVqekAIRdWjBWaBHxPjuu/view/)
 - [visA Dataset](https://github.com/amazon-science/spot-diff)
@@ -49,7 +49,8 @@ python main.py \
     --L2 0
 ```
 ## 📈 Performance Highlights
-SK-RD4AD consistently outperforms the baseline RD4AD model across multiple benchmark datasets, demonstrating its robust anomaly detection capabilities : 
+SK-RD4AD consistently outperforms the baseline RD4AD model across multiple benchmark datasets, demonstrating its robust anomaly detection capabilities. The integration of **non-corresponding skip connections** not only enhances **multi-scale feature retention** but also significantly boosts **anomaly localization** performance : 
+
 ### MVTec-AD Dataset Performance
 | Category     | RD4AD (Pixel AUROC/AUPRO) | SK-RD4AD (Pixel AUROC/AUPRO)   |
 |--------------|----------------------------|--------------------------------|
