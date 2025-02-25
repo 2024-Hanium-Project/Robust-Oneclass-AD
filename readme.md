@@ -3,14 +3,12 @@
 We introduce **SK-RD4AD**, an advanced anomaly detection model built upon the **Reverse Distillation for Anomaly Detection (RD4AD)** framework. SK-RD4AD enhances the RD4AD model by incorporating **non-corresponding skip connections** between layers, effectively mitigating deep feature loss while preserving multi-scale feature representations, thereby improving anomaly detection performance significantly.
 
 ## 🚀 Framework
-
 The **SK-RD4AD** model enhances the traditional RD4AD framework by addressing the critical challenge of **information loss** that occurs in deep layers, particularly when processing multi-scale features essential for accurate anomaly detection. The original RD4AD model struggled to retain and effectively utilize these features, leading to reduced performance in identifying subtle anomalies. To mitigate this, our model incorporates **non-corresponding skip connections** between encoder and decoder layers, allowing feature maps from early encoder stages to bypass intermediate layers and directly connect with deeper decoder layers.
 
+![Architecture Diagram](https://github.com/user-attachments/assets/64b2f6de-1ec1-4232-a86c-28a4f5836b3e)
 This architecture design allows the model to capture both **fine-grained details** and **high-level semantic information**, which are crucial for distinguishing normal patterns from anomalous ones. By leveraging non-corresponding skip connections, SK-RD4AD not only preserves vital information across the network but also strengthens the feature flow, enabling better reconstruction of the input image and highlighting subtle anomalies.
 
-![Architecture Diagram](https://github.com/user-attachments/assets/64b2f6de-1ec1-4232-a86c-28a4f5836b3e)
-
-## 🔥 Key Contrubutions
+## 🔥 Key Contributions
 - **🔗 Non-Corresponding Skip Connections**: We introduce selective connections between non-corresponding encoder and decoder layers (e.g., E3 to D2, E1 to D2). These links allow high-resolution, early-stage features to bypass intermediate processing and directly contribute to deeper decoding stages. This process preserves both low-level and high-level features, ensuring that fine details remain intact alongside broader semantic structures. This approach enhances the model’s sensitivity to subtle deviations within complex scenes.
 - **🔍 Multi-Scale Feature Preservation**: With the integration of multi-scale skip connections, SK-RD4AD effectively retains and combines both fine-grained and high-level details, which are processed in parallel across various network depths. This multi-scale feature preservation enables the model to capture intricate, localized anomalies as well as larger, structural irregularities, significantly improving its robustness in detecting subtle and diverse anomaly patterns.
 
