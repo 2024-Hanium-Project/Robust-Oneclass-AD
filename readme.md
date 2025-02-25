@@ -6,11 +6,11 @@ SK-RD4AD (Skip-Connected Reverse Distillation for Anomaly Detection) introduces 
 
 ## 🔥 Key Features
 - **🔗 Non-Corresponding Skip Connections**: Ensures both fine-grained and high-level structural information retention.
-- **State-of-the-Art Performance**: Achieves +3.5% AUROC improvement over RD4AD on MVTec-AD, VisA, and VAD datasets.
-- **Generalization Capability**: Robust against challenging anomaly types, including the difficult Transistor class in MVTec-AD.
+- **🚀 State-of-the-Art Performance**: Achieves +3.5% AUROC improvement over RD4AD on MVTec-AD, VisA, and VAD datasets.
+- **🌐 Generalization Capability**: Robust against challenging anomaly types, including the difficult Transistor class in MVTec-AD.
 
 ## 📂 Model Overview
-SK-RD4AD introduces non-corresponding skip connections between encoder and decoder layers, allowing fine-grained features from early stages to directly influence deeper layers. This approach improves the model's ability to detect subtle anomalies while preserving both low-level and high-level feature representations.
+The **SK-RD4AD** model enhances the traditional RD4AD framework by addressing the critical challenge of **information loss** that occurs in deep layers, particularly when processing multi-scale features essential for accurate anomaly detection. The original RD4AD model struggled to retain and effectively utilize these features, leading to reduced performance in identifying subtle anomalies. To mitigate this, SK-RD4AD introduces non-corresponding skip connections between encoder and decoder layers, allowing fine-grained features from early stages to directly influence deeper layers. This approach improves the model's ability to detect subtle anomalies while preserving both low-level and high-level feature representations.
 
 ![Architecture Diagram](https://github.com/user-attachments/assets/64b2f6de-1ec1-4232-a86c-28a4f5836b3e)
 
@@ -18,12 +18,12 @@ SK-RD4AD introduces non-corresponding skip connections between encoder and decod
 
 ## ⚙️ Experiment Settings
 
-### 🚀 Installation
+### 🧪 Installation
 ```bash
 pip install -r requirements.txt
 ```
 
-### 💽 Dataset Preparation
+### 📁 Dataset Preparation
 Download the MVTec and VAD datasets from:
 - [MVTec AD Dataset](https://www.mvtec.com/company/research/datasets/mvtec-ad/)
 - [Valeo Anomaly Dataset (VAD)](https://drive.google.com/file/d/1LbHHJHCdkvhzVqekAIRdWjBWaBHxPjuu/view/)
