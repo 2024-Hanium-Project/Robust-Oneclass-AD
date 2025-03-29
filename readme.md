@@ -64,4 +64,4 @@ Red/yellow hues indicate high anomaly confidence, overlayed on the original imag
 
 ## 🎥 Demo Video
 
-[![Watch the demo](https://img.youtube.com/vi/RgY_UKld6DM/0.jpg)](https://www.youtube.com/watch?v=RgY_UKld6DM)
+[![Watch the demo](https://img.youtube.com/vi/RgY_UKld6DM/1.jpg)](https://www.youtube.com/watch?v=RgY_UKld6DM)
