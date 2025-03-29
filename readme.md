@@ -1,5 +1,7 @@
 # Skip-Connected Reverse Distillation for Robust One-Class Anomaly Detection
 
+> 📣 This repository contains the official PyTorch implementation of our CVPR 2025 Workshop paper **"Skip-Connected Reverse Distillation for Robust One-Class Anomaly Detection (SK-RD4AD)"**, accepted at **VAND 3.0**.
+
 ## 📖 Introduction
 
 SK-RD4AD (Skip-Connected Reverse Distillation for Anomaly Detection) introduces a novel approach to one-class anomaly detection by leveraging non-corresponding skip connections within a Reverse Knowledge Distillation (KD) framework. This architecture addresses the deep feature loss issue prevalent in traditional models by effectively preserving multi-scale feature information, thereby enhancing anomaly localization and detection performance.
