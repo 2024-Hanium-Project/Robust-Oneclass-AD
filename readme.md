@@ -2,7 +2,7 @@
 
 > 💻 **Developed through an ICT Vision AI Project**  
 > 🎉 Our model was accepted at **CVPR 2025 Workshop**
-> 📌 **Official Implementation code : [SK-RD4AD](https://github.com/pej0918/SK-RD4AD)**
+> 📌 **Official Implementation code** : [SK-RD4AD](https://github.com/pej0918/SK-RD4AD)
 
 This research focuses on improving the robustness and localization ability of one-class anomaly detection models by introducing **non-corresponding skip connections** into a **reverse distillation framework**.
 
