@@ -8,7 +8,7 @@ This design preserves **multi-scale visual features**, addressing deep feature l
 ## 🧠 Architecture
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/64b2f6de-1ec1-4232-a86c-28a4f5836b3e" width="70%">
+  <img src="https://github.com/user-attachments/assets/64b2f6de-1ec1-4232-a86c-28a4f5836b3e" width="100%">
 </p>
 
 ---
