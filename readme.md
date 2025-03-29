@@ -61,7 +61,6 @@ Red/yellow hues indicate high anomaly confidence, overlayed on the original imag
 
 ---
 
-## 📬 Contact
+## 🎥 Demo Video
 
-For inquiries or collaborations, contact:  
-**Eun-ju Park** — pej0918@ewha.ac.kr
+[![Watch the demo](https://img.youtube.com/vi/RgY_UKld6DM/0.jpg)](https://www.youtube.com/watch?v=RgY_UKld6DM)
