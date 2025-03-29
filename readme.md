@@ -90,23 +90,7 @@ The visualization results demonstrate **the effectiveness of the SK-RD4AD model 
 
 SK-RD4AD effectively addresses deep feature loss by utilizing **non-corresponding skip connections**, enabling the model to better retain multi-scale features, particularly in challenging anomaly detection scenarios. This architecture enhances the model's ability to detect subtle anomalies, making SK-RD4AD a robust tool for anomaly detection across various industrial applications. Furthermore, the model demonstrates **state-of-the-art performance in one-class anomaly detection tasks**, achieving notable improvements in detection metrics compared to baseline models, thereby reinforcing its effectiveness in real-world scenarios. The results suggest that SK-RD4AD can serve as a **powerful solution** for applications requiring precise anomaly detection and robust feature preservation.
 
-## 📚 References
-
-```
-@InProceedings{Deng_2022_CVPR,
-    author    = {Deng, Hanqiu and Li, Xingyu},
-    title     = {Anomaly Detection via Reverse Distillation From One-Class Embedding},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    year      = {2022},
-    pages     = {9737-9746}
-}
-
-@misc{baitieva2024supervised,
-    title={Supervised Anomaly Detection for Complex Industrial Images}, 
-    author={Aimira Baitieva and David Hurych and Victor Besnier and Olivier Bernard},
-    year={2024},
-    eprint={2405.04953},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
-}
-```
+## 📚 Citation
+'''
+To be updated soon
+'''
