@@ -1,7 +1,10 @@
-# SK-RD4AD: Skip-Connected Reverse Distillation for Robust One-Class Anomaly Detection
+# Research on Improving One-Class Anomaly Detection for Robustness
 
-SK-RD4AD introduces a novel anomaly detection architecture that integrates **non-corresponding skip connections** into a reverse knowledge distillation framework.  
-This design preserves **multi-scale visual features**, addressing deep feature loss in traditional models and enhancing both **anomaly localization** and **detection accuracy**.
+> **Developed through an ICT Vision AI Project**  
+> Accepted at **CVPR 2025 Workshop – VAND 3.0**
+
+This research focuses on improving the robustness and localization ability of one-class anomaly detection models by introducing **non-corresponding skip connections** into a **reverse distillation framework**.
+To address the limitations of deep-layer feature loss in conventional reverse distillation frameworks, we propose a novel skip-connected design that enhances **multi-scale feature preservation** and **localization accuracy**.
 
 ---
 
