@@ -1,6 +1,7 @@
 # Research on Improving One-Class Anomaly Detection for Robustness
 
 > 💻 **Developed through an ICT Vision AI Project**
+>
 > 🎉 Our model was accepted at **CVPR 2025 Workshop**
 > 📌 **Official Implementation code: [SK-RD4AD](https://github.com/pej0918/SK-RD4AD)**
 
