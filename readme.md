@@ -4,6 +4,7 @@
 > Accepted at **CVPR 2025 Workshop – VAND 3.0**
 
 This research focuses on improving the robustness and localization ability of one-class anomaly detection models by introducing **non-corresponding skip connections** into a **reverse distillation framework**.
+
 To address the limitations of deep-layer feature loss in conventional reverse distillation frameworks, we propose a novel skip-connected design that enhances **multi-scale feature preservation** and **localization accuracy**.
 
 ---
@@ -25,6 +26,18 @@ To address the limitations of deep-layer feature loss in conventional reverse di
 | **VAD**      | AUROC          | 84.5   | **87.0**  |
 
 > Evaluated on MVTec-AD, Valeo Anomaly Dataset (VAD), and VisA.
+---
+
+## 📈 Result Analysis
+
+Our experiments demonstrate that **SK-RD4AD significantly improves anomaly localization**, particularly in datasets with complex textures (e.g., VisA) or subtle defects (e.g., VAD).  
+The introduction of **non-corresponding skip connections** enables better flow of spatial detail into deeper layers, allowing the model to detect fine-grained anomalies more precisely.
+
+- On **VisA**, the Pixel AUPRO improved by **+21.2**, showing enhanced ability to localize structural anomalies in PCB data.
+- On **VAD**, the model showed better generalization across real-world driving scenarios, achieving **+2.5 AUROC** gain.
+- Even on **MVTec**, where performance is already strong, the model shows consistent gains, indicating stability.
+
+These results validate the hypothesis that **feature loss in deep layers** is a core limitation in prior work, and that **skip-connected reverse distillation** can effectively address this issue.
 
 ---
 
