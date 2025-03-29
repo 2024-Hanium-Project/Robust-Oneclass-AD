@@ -1,8 +1,8 @@
 # Research on Improving One-Class Anomaly Detection for Robustness
 
 > 💻 **Developed through an ICT Vision AI Project**  
-> 🎉 Accepted at **CVPR 2025 Workshop – VAND 3.0**
-> 📌 **Official Implementation code repo : [SK-RD4AD](https://github.com/pej0918/SK-RD4AD)**
+> 🎉 Our model was Accepted at **CVPR 2025 Workshop – VAND 3.0**
+> 📌 **Official Implementation code : [SK-RD4AD](https://github.com/pej0918/SK-RD4AD)**
 
 This research focuses on improving the robustness and localization ability of one-class anomaly detection models by introducing **non-corresponding skip connections** into a **reverse distillation framework**.
 
