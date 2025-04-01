@@ -14,9 +14,7 @@ To address the limitations of deep-layer feature loss in conventional reverse di
 
 ## 🧠 Architecture
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/64b2f6de-1ec1-4232-a86c-28a4f5836b3e" width="100%">
-</p>
+![image](https://github.com/user-attachments/assets/51916259-a0a4-4d39-aaa0-ee170d87cfe6)
 
 ---
 
